@@ -18,8 +18,8 @@ open class Main2Activity : AppCompatActivity(), ItemClickListner {
         Toast.makeText(this, "User Name is : $pos", Toast.LENGTH_SHORT).show()
     }
 
-    lateinit var userData: String;
-    val listUser: ArrayList<UserModel> = ArrayList()
+    private lateinit var userData: String;
+    private val listUser: ArrayList<UserModel> = ArrayList()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
