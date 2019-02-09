@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorPrimary"/>
+
+
+    <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_below="@+id/frame"
+            android:layout_marginTop="-30dp"
+            android:layout_width="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/imgProfile">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/txtTitleName"
+                    android:layout_width="wrap_content"
+                    android:text="Enter your Name :"
+                    android:minHeight="30dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/editName"
+                    android:layout_width="wrap_content"
+                    android:minWidth="100dp"
+                    android:hint="Name is"
+                    android:layout_marginStart="50dp"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/txtTitleEmail"
+                    android:layout_width="wrap_content"
+                    android:text="Enter your Email :"
+                    android:minHeight="30dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="wrap_content"
+                    android:minWidth="100dp"
+                    android:hint="Email is"
+                    android:layout_marginStart="50dp"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/txtTitlePassword"
+                    android:layout_width="wrap_content"
+                    android:text="Enter your Password :"
+                    android:minHeight="30dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/editPassword"
+                    android:layout_width="wrap_content"
+                    android:minWidth="100dp"
+                    android:hint="Password is"
+                    android:layout_marginStart="50dp"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/txtTitleConfirmPassword"
+                    android:layout_width="wrap_content"
+                    android:text="Reenter password :"
+                    android:minHeight="30dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+
+
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/editConfirmPassword"
+                    android:layout_width="wrap_content"
+                    android:minWidth="100dp"
+                    android:hint="Reenter password is"
+                    android:layout_marginStart="50dp"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/txtSignUp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="SignUp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
